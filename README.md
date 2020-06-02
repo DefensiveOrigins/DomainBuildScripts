@@ -7,3 +7,5 @@ USAGE
 2. Invoke a powershell -ep bypass session and run the .ps1 files in order. 
 
 3. Once the pre-reqs and AD binaries are installed, the user add script can also be ran. These are "controllable" accounts for your modification. Another option to create a messy domain could be the BadBlood repo which will create a ton of stuff in your new domain (sessions aside). 
+
+4. The user add last step creates a couple of OUs, and a domain administrator. The "itadmin" account has an initial password of "ThisShouldBeLongerThan20". 
