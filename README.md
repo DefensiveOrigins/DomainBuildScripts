@@ -1,11 +1,11 @@
-# DomainBuildScripts
-Build a domain with three quick PowerShell scripts!
+# Defensive Origins - Lab Build Scripts
 
-USAGE
-1. Fire up a Windows Server 2012 / 2016 / 2019(is also believed to work) and assign a static IP address. 
 
-2. Invoke a powershell -ep bypass session and run the .ps1 files in order. 
+This repo contains build scripts for Defensive Origin's various lab environments.
 
-3. Once the pre-reqs and AD binaries are installed, the user add script can also be ran. These are "controllable" accounts for your modification. Another option to create a messy domain could be the BadBlood repo which will create a ton of stuff in your new domain (sessions aside). 
+| Lab Environment | Description |
+|----------|----------|
+| [Applied Purple Teaming - June 6, 2020](https://github.com/DefensiveOrigins/DomainBuildScripts/tree/master/AppliedPurpleTeaming-Lab-June2020) | Lab designed for 4 hosts that allow an implementation of a Purple Team lab in either a small or large enterprise environment.  |
 
-4. The user add last step creates a couple of OUs, and a domain administrator. The "itadmin" account has an initial password of "ThisShouldBeLongerThan20". 
+
+
